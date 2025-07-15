@@ -2,7 +2,7 @@
 Diabetes Prediction using Machine Learning
 This project utilizes the Pima Indians Diabetes Dataset to explore and build machine learning models for predicting the likelihood of diabetes based on key clinical features. The objective is to develop a reproducible ML pipeline that supports early detection and can be integrated into health diagnostic systems.
 
-📊 Project Overview
+ Project Overview
 Using medical data collected from female patients of Pima Indian heritage, this notebook walks through every major step of a data science workflow:
 
 Exploratory Data Analysis (EDA)
