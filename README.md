@@ -1,39 +1,42 @@
 # Pima-Indians-Diabetes
-Diabetes Prediction using Machine Learning
-This project utilizes the Pima Indians Diabetes Dataset to explore and build machine learning models for predicting the likelihood of diabetes based on key clinical features. The objective is to develop a reproducible ML pipeline that supports early detection and can be integrated into health diagnostic systems.
+📊 Project Overview
 
- Project Overview
-Using medical data collected from female patients of Pima Indian heritage, this notebook walks through every major step of a data science workflow:
+This project explores and implements various supervised learning models to classify whether a patient is likely to develop diabetes. It demonstrates essential data science steps such as data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and evaluation.
 
-Exploratory Data Analysis (EDA)
+📁 Files Included
 
-Data preprocessing and feature scaling
+diabetes.csv – Dataset with 768 records, each containing 8 medical input features and a binary outcome.
 
-Model development and training
+Pima_Indians_Diabetes_Dataset.ipynb – Jupyter Notebook covering:
 
-Performance evaluation and comparison
+Data loading and inspection
 
- Files Included
-diabetes.csv – Dataset containing 768 patient records with 8 clinical features (glucose, insulin, BMI, etc.) and a target label.
+Handling missing and zero values
 
-Pima_Indians_Diabetes_Dataset.ipynb – A comprehensive Jupyter Notebook that:
+Visualizations (distribution plots, heatmaps)
 
-Performs data cleaning and handles missing/zero values
+Model training: Logistic Regression, Random Forest, etc.
 
-Visualizes distributions and correlation heatmaps
+Performance metrics: Accuracy, Confusion Matrix, Classification Report
 
-Builds predictive models (e.g., Logistic Regression, Random Forest)
+🔧 Technologies Used
 
-Evaluates model performance using confusion matrix, classification report, and accuracy metrics
+Python (Pandas, NumPy, Matplotlib, Seaborn)
 
- Techniques & Tools Used
-Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+Scikit-learn for model development and evaluation
 
-Supervised learning: Logistic Regression, Random Forest
+Jupyter Notebook for interactive analysis
 
-Evaluation: Accuracy, Precision, Recall, F1 Score, Confusion Matrix
+🧠 Machine Learning Techniques
 
-Data normalization and feature engineering
+Logistic Regression
 
- Objective
-To accurately predict the onset of diabetes using routine diagnostic data, assisting healthcare professionals in making faster and data-informed decisions.
+Random Forest Classifier
+
+Feature scaling (StandardScaler)
+
+Evaluation: accuracy, precision, recall, F1-score
+
+🎯 Objective
+
+To build a robust, reproducible ML model that can assist in early diabetes prediction using routine diagnostic measurements. The goal is to support healthcare professionals in making informed decisions through data.
